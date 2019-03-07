@@ -10,7 +10,7 @@ import dash_html_components as html
 
 # initialize Dash app and initialize the static folder
 app = dash.Dash(__name__, static_folder='static')
-df = pd.read_csv('cereal.csv')
+df = pd.read_csv('static/cereal.csv')
 # set layout of the page
 app.layout = html.Div(children=[
 
